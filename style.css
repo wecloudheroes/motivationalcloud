@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#hero {
+    text-align: center;
+}
+
+#quotes {
+    border-left: 5px solid #ccc;
+    padding-left: 10px;
+}
+
+#blog article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
