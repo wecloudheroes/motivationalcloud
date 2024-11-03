@@ -156,3 +156,75 @@ body {
 .social-icons a:hover {
     color: #cce7ff;
 }
+
+/* Base styling for animated text */
+.animated-text-container {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1a73e8;
+    overflow: hidden;
+    border-right: 3px solid #1a73e8;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+}
+
+/* Typing Effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Cursor Blinking Effect */
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #1a73e8;
+    }
+}
+
+/* Fade-in Effect */
+.fade-in-text {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Color Change Animation */
+.color-change-text {
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #1a73e8;
+    }
+    25% {
+        color: #ff6347;
+    }
+    50% {
+        color: #32cd32;
+    }
+    75% {
+        color: #ff4500;
+    }
+    100% {
+        color: #1a73e8;
+    }
+}
